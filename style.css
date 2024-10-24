@@ -1,0 +1,253 @@
+
+body {
+    font-family: 'Visuelt Pro', sans-serif;
+    background: linear-gradient(to right, rgba(197, 171, 224, 0.7), rgba(230, 221, 240, 0.7)), #ffffff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    color: #4754EB;
+    font-size: 18px;
+}
+
+.navigation-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: #808080;
+    gap: 20px;
+}
+
+.registration-button {
+    background-color: #4754EB;
+    color: #FFFFFF;
+    border-radius: 16px;
+    width: 220px;
+    height: 48px;
+    font-size: 18px;
+    border-style: none;
+}
+
+.involvement-of-representatives-content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.involvement-of-representatives-text{
+    display: flex;
+    max-width: 628px; 
+    
+}
+
+.left-involvement-of-representatives-content {
+    font-size: 56px;
+    color: #1A1A1A;
+}
+
+.personal-data-text {
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+
+
+.white-circle {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+
+    z-index: 1;
+    
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: end;
+}
+
+.blue-circle {
+    width: 265px;
+    height: 265px;
+
+    border-radius: 50%;
+    
+    background-color: #0000FF;
+
+    position: relative;
+    top: 150px;
+    left: 400px;
+
+    z-index: 1;
+}
+
+.pink-circle {
+    width: 265px;
+    height: 265px;
+
+    border-radius: 50%;
+    
+    background-color: pink;
+
+    position: relative;
+    left: 200px;
+    top: 120px;
+    
+}
+
+.rocket-image-content {
+    position: relative;
+
+    bottom: 100px;
+    right: 30px;
+}
+
+.send-email-data-button {
+    background-color: #FFFFFF;
+    color: #4754EB;
+    border-radius: 16px;
+    width: 220px;
+    height: 48px;
+    font-size: 18px;
+    border-style: none;
+}
+
+.email-field-input {
+    width: 300px; 
+    height: 64px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 0px; 
+}
+
+.advantages-content{
+    background-color: #FFFFFF;
+}
+
+.advantages-main-header{
+    display: flex;
+    justify-content: start;
+}
+
+.advantages-headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #1A1A1A;
+}
+
+.advantages-text-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 18px;
+    color: #808080
+}
+
+.how-we-work-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.how-we-work-text-container{
+    max-width: 540px;
+    justify-content: center;
+}
+
+.how-we-work-text{
+    font-size: 16px;
+    color: #808080;
+}
+
+.call-button{
+    background-color: #4754EB;
+    color: #FFFFFF;
+    border-radius: 16px;
+    width: 220px;
+    height: 48px;
+    font-size: 18px;
+    border: 0px;
+}
+
+.our-rates-container{
+    background-color: #ffffff;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rates-text{
+    background-color:rgba(19, 19, 19, 0.05);
+    border-radius: 24px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.button-tarif{
+    background-color: #ffffff;
+    color:#4754EB;
+    border-radius: 16px;
+    width: 270px;
+    height: 56px;
+    border: 0px;
+}
+
+.container-for-feedbacks{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.avatar{
+    width: "64px";
+    height: "64px";
+    border-radius: 50%;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.feedback-avatar-name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 24px;
+    color: #1A1A1A;
+
+}
+
+.feedback-text{
+    font-size: 18px;
+    color: #808080;
+    background-color:rgba(19, 19, 19, 0.05);
+    border-radius: 24px;
+}
+
+
+.structure-cats-button{
+    background-color: #ffffff;
+    color:#4754EB;
+    border-radius: 16px;
+    width: 270px;
+    height: 56px;
+}
+
+
+
+
+
+
